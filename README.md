@@ -2,6 +2,7 @@
 Proxmox - Packer and Terraform for template creation and deployments
 
 Packer
+
    Creates a Proxmox VM Template based on Ubuntu 22.04.4 named template-docker, with a tag of 'template'  
    ISO lives in a Proxmox storage location named 'local'.  
    VM boots to ISO, runs cloud-init, Subiquity for local disk paritioning, user Ubuntu and pass created, proxmox agent install, sets hostname, adds ubuntu user to wheel.   
