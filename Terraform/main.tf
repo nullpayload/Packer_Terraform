@@ -32,10 +32,10 @@ resource "proxmox_vm_qemu" "my_vm" {
     scsi {
        scsi0 {
            disk {
-	      storage	= var.storage_name
-	      size	= var.disk_size
+	            storage	= var.storage_name
+	            size	= var.disk_size
               backup	= var.disk_backup
-	   }
+	          }
        }
     }
   }
