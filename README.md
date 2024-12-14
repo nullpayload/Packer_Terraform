@@ -21,4 +21,7 @@ Proxmox - Packer and Terraform for template creation and deployments
     
 ## Todo
    ~~Update to Ubuntu 24~~ 
+   Move fake passwords and user pass hash to Azure Keyvault  (maybe hashicorp vault)
+   Switch to ssh auth instead of password auth for packer process.
+   Gitlab self hosted ci/cd, or azure devops free tier.    
     
