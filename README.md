@@ -20,5 +20,5 @@ Proxmox - Packer and Terraform for template creation and deployments
    local pam login is used to authenticate to the proxmox API.  I think I hit this issue with Packer, but didn't go back to this after switching to local pam auth. https://bugzilla.proxmox.com/show_bug.cgi?id=4344  
     
 ## Todo
-   Update to Ubuntu 24  
+   ~~Update to Ubuntu 24~~ 
     
