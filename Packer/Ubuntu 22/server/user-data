@@ -37,7 +37,7 @@ autoinstall:
     install-server: true
   locale: en_US
   keyboard: 
-    layout: it 
+    layout: us
 
   # Subiquity will, by default, configure a partition layout using LVM.
   # The 'direct' layout method shown here will produce a non-LVM result.
